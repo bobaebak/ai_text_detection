@@ -12,4 +12,5 @@ It runs its own model to predict whether a given text is from AI-generated or Hu
 ### Radar: Robust ai-text detection via adversarial learning
 - Paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf
 - Git: https://github.com/IBM/RADAR
-- 
+
+ref: https://github.com/BurhanUlTayyab
