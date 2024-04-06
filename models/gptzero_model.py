@@ -1,5 +1,5 @@
-import torch
 import re
+import torch
 import transformers
 from transformers import GPT2LMHeadModel, GPT2TokenizerFast
 from collections import OrderedDict
@@ -19,11 +19,13 @@ class GPTZeroRunner:
     def __call__(self, sentence):
         """
         Takes in a sentence split by full stop
-p        and print the perplexity of the total sentence
+        and print the perplexity of the total sentence
         split the lines based on full stop and find the perplexity of each sentence and print
         average perplexity
         Burstiness is the max perplexity of each sentence
         """
+        result_dict = {}
+
         results = OrderedDict()
 
         total_valid_char = re.findall("[a-zA-Z0-9]+", sentence)
@@ -34,10 +36,12 @@ p        and print the perplexity of the total sentence
 
         lines = re.split(r'(?<=[.?!][ \[\(])|(?<=\n)\s*',sentence)
         lines = list(filter(lambda x: (x is not None) and (len(x) > 0), lines))
+        print(f"sentence length: {len(lines)}")
 
-        ppl = self.getPPL(sentence)
+        ppl = self.calc_ppl(sentence)
         print(f"Perplexity {ppl}")
         results["Perplexity"] = ppl
+        result_dict['perplexity'] = ppl
 
         offset = ""
         Perplexity_per_line = []
@@ -55,20 +59,28 @@ p        and print the perplexity of the total sentence
             elif line[-1] == "[" or line[-1] == "(":
                 offset = line[-1]
                 line = line[:-1]
-            ppl = self.getPPL(line)
+            ppl = self.calc_ppl(line)
             Perplexity_per_line.append(ppl)
         print(f"Perplexity per line {sum(Perplexity_per_line)/len(Perplexity_per_line)}")
+        result_dict['perplexity_per_line'] = Perplexity_per_line
+        result_dict['perplexity_per_line_score'] = sum(Perplexity_per_line)/len(Perplexity_per_line)
+        result_dict['burstiness'] = max(Perplexity_per_line)
+
         results["Perplexity per line"] = sum(Perplexity_per_line)/len(Perplexity_per_line)
 
         print(f"Burstiness {max(Perplexity_per_line)}")
         results["Burstiness"] = max(Perplexity_per_line)
+        
 
-        out, label = self.getResults(results["Perplexity per line"])
+        # out, label = self.getResults(results["Perplexity per line"])
+        out, label = self.getResults(result_dict['perplexity_per_line_score'])
         results["label"] = label
+        result_dict['label'] = label
+        result_dict['out'] = out
+        # return results, out
+        return result_dict
 
-        return results, out
-
-    def getPPL(self,sentence):
+    def calc_ppl(self, sentence):
         encodings = self.tokenizer(sentence, return_tensors="pt")
         seq_len = encodings.input_ids.size(1)
 
