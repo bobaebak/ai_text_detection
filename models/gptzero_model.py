@@ -62,9 +62,11 @@ class GPTZeroRunner:
             ppl = self.calc_ppl(line)
             Perplexity_per_line.append(ppl)
         print(f"Perplexity per line {sum(Perplexity_per_line)/len(Perplexity_per_line)}")
+        
         result_dict['perplexity_per_line'] = Perplexity_per_line
         result_dict['perplexity_per_line_score'] = sum(Perplexity_per_line)/len(Perplexity_per_line)
         result_dict['burstiness'] = max(Perplexity_per_line)
+        result_dict['sentences'] = lines
 
         results["Perplexity per line"] = sum(Perplexity_per_line)/len(Perplexity_per_line)
 

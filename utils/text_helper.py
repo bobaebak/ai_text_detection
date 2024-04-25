@@ -56,9 +56,16 @@ def ngrams_generator(text: str, n: int) -> str:
     # Tokenize the text
     tokens = word_tokenize(lowercase_text(text.strip()))
     # Generate n-grams using nltk.ngrams and join them into strings
-    result = [' '.join(ngram) for ngram in ngrams(tokens, n)]
-    return result
+    ngram = set(ngrams(tokens, n))
+    # result = [' '.join(ngram) for ngram in ngrams(tokens, n)]
+    return ngram
 
-def common_elements(list1, list2):
+def count_common_ngrams(ngrams1, ngrams2):
     # Find common elements between two lists
-    return set(list1) & set(list2)
+    common_ngrams = ngrams1.intersection(ngrams2)
+    
+    # Count the number of common n-grams
+    common_ngrams_count = len(common_ngrams)
+
+    return common_ngrams, common_ngrams_count
+

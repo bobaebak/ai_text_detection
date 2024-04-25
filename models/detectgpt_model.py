@@ -35,6 +35,9 @@ class DetectGPTRunner:
 
 
     def __call__(self, sentence, chunk_value=100):
+        
+        result_dict = {}
+        
         sentence = re.sub("\[[0-9]+\]", "", sentence) # remove all the [numbers] cause of wiki
 
         words = re.split("[ \n]", sentence)
@@ -84,9 +87,18 @@ class DetectGPTRunner:
 
         mean_prob = normCdf(abs(self.threshold - mean_score)) * 100
         label = 0 if mean_score > self.threshold else 1
+        output = self.getResult(mean_score)
         print(f"probability for {'A.I.' if label == 0 else 'Human'}:", "{:.2f}%".format(mean_prob))
-        return {"prob": "{:.2f}%".format(mean_prob), "label": label}, self.getResult(mean_score)
 
+
+        result_dict['sentences'] = lines
+        result_dict['prob'] = "{:.2f}%".format(mean_prob)
+        result_dict['label'] = label
+        result_dict['out'] = self.getResult(mean_score)
+
+        return result_dict
+    
+    
     def getScore(self, sentence):
         original_sentence = sentence
         sentence_length = len(list(re.finditer("[^\d\W]+", sentence)))
