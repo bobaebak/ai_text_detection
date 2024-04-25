@@ -2,10 +2,15 @@ import os
 import json 
 import openai
 import numpy as np
+from dotenv import load_dotenv  
 from fuzzywuzzy import fuzz
 
 NGRAM_NUM = 4
-openai.api_key = "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"
+
+# Load environment variables from .env file
+load_dotenv()
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI(api_key=openai.api_key)
 
 def load_curr_path():
