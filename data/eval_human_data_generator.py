@@ -1,5 +1,9 @@
 import re 
 import json
+import os
+
+CURR_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR  = os.path.dirname(CURR_DIR)
 
 def extract_only_answers(key, raw_text):
     """
@@ -40,12 +44,14 @@ def extract_only_answers(key, raw_text):
     return lst
 
 # load a raw text file
-with open('../dataset/human/student_answers.txt', "r") as f:
+file_path = "".join(PARENT_DIR+"/dataset/human/student_answers.txt")
+with open(file_path, "r") as f:
     text = f.read()  
 
 # extract only student answer
 json_lst = extract_only_answers("input", text)
 
 # save as json file
-with open('../dataset/human/eval_human.json', "w") as f:
+file_path = "".join(PARENT_DIR+"/dataset/human/eval_human.json")
+with open(file_path, "w") as f:
     json.dump(json_lst, f, indent=4)
