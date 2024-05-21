@@ -1,0 +1,366 @@
+[
+    {
+        "input": "I have a strong preference for cooking at home. For starters, it's more economical and safer than eating out. By buying the ingredients myself, I can ensure they're fresh and clean. Secondly, whipping up a good meal gives me a sense of accomplishment. During every Spring Festival, I take pride in cooking for my entire family, and they always rave about the delicious food. We can relax and chat freely around the dinner table, which I believe strengthens our family bond. It's a feeling I'm truly proud of.",
+        "label": "ai"
+    },
+    {
+        "input": "The place I'm most eager to visit is outer space, where many of the physical laws that govern the earth no longer apply. It's fascinating to see everything suspended in mid-air. And, of course, the phrase \"in mid-air\" needs a tweak, given that there's no air to speak of. It's exhilarating to move about in a completely novel way. And it's breathtaking to gaze upon our home planet from a radically new perspective. The big blue crystal sphere, as captured in the stunning images taken by astronauts, is simply awe-inspiring. I'm desperate to lay eyes on this magnificent blue orb in person.",
+        "label": "ai"
+    },
+    {
+        "input": "In ten years' time, I envision a life of unbridled freedom. My future self will be unshackled from the 9-to-5 grind, allowing me to roam the globe, explore new horizons, and connect with diverse people and cultures. I'll be able to travel to France, South Africa, South America, and the idyllic islands of the Pacific, unfettered by the constraints of a traditional job. As a freelancer, I'll have the luxury of living off my royalties, affording me the time and creative freedom to write novels and devour the great literary masterpieces. This is the life I envision for myself a decade from now.",
+        "label": "ai"
+    },
+    {
+        "input": "Personally, I'd like to give a shout-out to Beijing University, which has really left an impression on me. As one of China's most prestigious institutions, it's got a lot going for it. There are a couple of reasons why it stands out to me. Firstly, the campus is stunning - when I've got some downtime, I love taking a stroll through the woods, breathing in the fresh air, and listening to the birdsong; it's incredibly calming. Another major draw is the diverse student body, which means I've got plenty of opportunities to connect with international students, grab coffee, engage in lively discussions, and just have a blast. That's why Beijing University really resonates with me.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm convinced that pursuing my passion is the way to go. While I don't think it's wrong to study a subject for its job prospects, it's just not my style. My ultimate goal is to become a scientist, and following my heart is crucial, as research can be a laborious and frustrating process at times. Without a genuine interest, it's the only thing that will keep me motivated to push through. If you're solely driven by financial gain, you'll likely abandon ship as soon as the field no longer seems lucrative, which would be detrimental to scientific progress.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that TV programs are exerting a detrimental influence on our society, and here's why. First, families used to bond over dinner, sharing stories about their day, their triumphs and struggles, and engaging in games and activities that brought them joy. But now, the only pastime they seem to indulge in is lounging on the couch, mesmerized by the TV for entertainment. And second, exercising is a far superior choice to watching TV. Obesity and heart disease are now grave concerns in this country, and a significant contributing factor is the sedentary lifestyle many people lead, spending hours on end in front of the TV, munching on junk food.",
+        "label": "ai"
+    },
+    {
+        "input": "The object that holds a special place in my heart is a delicate timepiece. This elegant watch, designed specifically for women, was a heartfelt gift from one of my French friends, serving as a poignant reminder of our cherished bond. This tiny watch holds immense sentimental value, as it instantly transports me back to those idyllic days spent in a picturesque French coastal town. My watch boasts a deep, rich blue hue, reminiscent of the captivating ocean views that I grew to love. You can imagine how romantic it is to unwind on the beach, watching the sun dip into the horizon, feeling the gentle ocean breeze, and listening to the melodic songs of the seagulls. Most importantly, I formed unforgettable connections with some lovely French girls, one of whom kindly bestowed this beautiful timepiece upon me. I treasure the watch just as much as I treasure the memories we shared, and the friendship we forged.",
+        "label": "ai"
+    },
+    {
+        "input": "My experience during the internship was incredibly challenging. My primary responsibility was to collaborate with Nigerian students, which proved to be a significant hurdle given my limited English proficiency at the time. Nigerian English, as I soon discovered, is quite distinct from American English. In the first two weeks, I struggled to comprehend what they were discussing, let alone work effectively with them. To overcome this barrier, I made it a point to accompany them every day after work, inquiring about their culture and sharing aspects of Chinese culture with them. Fortunately, they were incredibly kind and offered me a great deal of assistance. By the end of the summer, we had formed strong bonds and remained in touch ever since.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm currently enrolled in a prestigious university, which offers me a unique opportunity to expand and deepen my knowledge in my field of study, business administration. Throughout my academic journey, I've had the chance to explore various related disciplines, including economics, management, and e-commerce, among others. Additionally, I've been able to secure internships at prominent business companies, which will undoubtedly provide a solid foundation for my future career. Moreover, being part of a vibrant university community has enabled me to forge lasting connections with talented individuals who inspire me with their innovative ideas and perspectives.",
+        "label": "ai"
+    },
+    {
+        "input": "That was the moment I received the results of my college entrance test. We were under immense pressure that day. Finally, the phone rang, and it turned out that I had actually done well. When my mind was still reeling, my dad said something that brought me back to reality: \"Son, I'm incredibly proud of you.\" Suddenly, I realized that all my hard work had paid off, I hadn't let myself or anyone who cares about me down. That was the moment I knew it marked a brand new chapter in my life, and I'll always treasure it.",
+        "label": "ai"
+    },
+    {
+        "input": "There's no doubt that I'm going to pursue a career in engineering. Becoming an engineer has been a lifelong dream of mine since I was a kid. It will give me the freedom to unleash my creativity in my daily work, which is a dream come true. And I'd love to build something that will stand the test of time, even after I'm gone, and seeing people benefit from my design would give me immense satisfaction. So, enrolling in engineering school would truly be a fresh start for me. That's why I've decided to make it my career of choice.",
+        "label": "ai"
+    },
+    {
+        "input": "The Spring Festival, which marks the arrival of Chinese New Year, holds a special place in my heart - it's undoubtedly my favorite celebration. After a year of toil, people traditionally reunite with their loved ones to commemorate the Spring Festival. In today's fast-paced world, finding quality time with family can be a challenge. However, the Spring Festival provides the perfect opportunity to bond with your nearest and dearest. And, as an added bonus, Jiaozi - my all-time favorite dish - takes center stage during this festive period. Moreover, the joy of preparing Jiaozi alongside family members is an experience I cherish, which further solidifies my affection for the Spring Festival.",
+        "label": "ai"
+    },
+    {
+        "input": "When it comes to celebrations, there's one day that stands out above the rest in China - the first day of the year on the lunar calendar, commonly known as the Spring Festival to most Chinese people. Even if you're not a fan of festive events, you can't help but be won over by the allure of a family reunion dinner, which is the hallmark of the Spring Festival. And during the dinner, family members raise their glasses in a toast to wish each other joy, peace, good health, and prosperity in the year ahead.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm drawn to biography books because, despite claims that society is evolving, human nature remains remarkably consistent. These books offer a glimpse into the underlying motivations behind historic events, which helps me prepare for the challenges I may face in the future. By studying how others have navigated similar problems, I can gain valuable insights. Moreover, I believe that biography serves as a powerful antidote to the curated, glamorous self-images that pervade our culture, often creating unrealistic expectations. By stripping away these illusions, biography reveals the unvarnished truth about human nature.",
+        "label": "ai"
+    },
+    {
+        "input": "When in China, it's common for people to eat with chopsticks, and many Chinese restaurants only provide them. Therefore, if foreign tourists want to fully experience Chinese cuisine, they need to master the art of using chopsticks. Secondly, in China, boiled water is the norm, and it's advisable not to drink tap water directly, as this can lead to stomach problems. Lastly, if someone gives you a birthday gift, it's considered impolite to open it immediately in China.",
+        "label": "ai"
+    },
+    {
+        "input": "I definitely have a strong preference for studying in a large metropolitan area. The primary motivation for most people to pursue higher education is to secure a well-paying job, and big cities offer far more employment opportunities than small towns. By studying in a big city, I can hold down a part-time job while pursuing my degree, and potentially land a full-time position with the same employer after graduation. Furthermore, metropolitan areas provide a plethora of internship opportunities that can give me a competitive edge. Additionally, jobs in big cities tend to offer more lucrative salaries. Therefore, I firmly believe that a big city is a more attractive option for me to pursue my studies.",
+        "label": "ai"
+    },
+    {
+        "input": "Years ago, during my stint in Australia, I had the privilege of living in a house perched on the forest's edge. As the sun dipped below the horizon and the heat began to dissipate, I'd often light a lamp, settle into a comfortable cane chair on the balcony, and get lost in a good book. It was a truly serene atmosphere, where the only reminder that time was still ticking away was the gentle rustle of the cool breeze. I cherished those moments when the moonbeams filtered through the branches, casting dappled shadows on the floor, and the birds fell silent, replaced only by the occasional chirping of crickets. It was nothing short of perfection.",
+        "label": "ai"
+    },
+    {
+        "input": "In my free time, I'm often hooked on browsing the internet. The wealth of information online helps me stay informed about what's happening in the world. Plus, it's been instrumental in my personal growth, enabling me to make more informed decisions. When I was choosing a university and major after high school, the internet provided me with a treasure trove of insights into the career prospects of various professions. I even had the opportunity to connect with people in those fields and gather their valuable insights. I found it incredibly helpful.",
+        "label": "ai"
+    },
+    {
+        "input": "In my opinion, it's my loved ones and close friends who exert the most significant influence on me. While the media - including newspapers, TV, radio, and other formats - can keep us informed about current events and provide us with knowledge, they are limited in their ability to provide emotional fulfillment. When it comes to tackling specific issues, we often require more targeted guidance. This is where our family members and friends can offer invaluable insights and provide the support we need to overcome these challenges.",
+        "label": "ai"
+    },
+    {
+        "input": "",
+        "label": "ai"
+    },
+    {
+        "input": "Being honest is always a vital component in any relationship - it's the only way to establish genuine trust. When things go awry, even with justifiable reasons, I'd appreciate it if the truth were revealed, no matter how frustrating it might be. Because if someone deceives me and I discover the truth, how can I trust them again? How can I not question the authenticity of every word they utter? There's no way I can maintain a healthy relationship with someone who lacks transparency.",
+        "label": "ai"
+    },
+    {
+        "input": "Allen Iverson, the NBA superstar, is undoubtedly one of the individuals I hold in the highest esteem. I have immense admiration for him because he embodies the perfect blend of dedication and perseverance. I recall watching an interview with his high school coach on NBC, and he praised Allen for his exceptional work ethic. According to his coach, Allen was a paragon of diligence, always arriving first at training sessions and staying behind for an extra two hours after his teammates had left for dinner. It's no wonder his tireless efforts propelled him to become one of the most extraordinary players in the league.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that a higher education is a key driver of a successful career. To start with, in today's fast-paced and increasingly complex business landscape, companies need to stay ahead of the curve to remain competitive. As such, they require intelligent, knowledgeable, and skilled professionals who can navigate the intricacies of their operations. Moreover, having a higher education under your belt gives you a distinct edge over other job applicants, making you a more attractive candidate. Hence, these compelling reasons are why I firmly believe that a higher education paves the way for a better career.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm a firm believer in taking multiple short breaks throughout the year. For starters, the allure of a vacation lies in the thrill of planning, the excitement of spending quality time with loved ones, and so on. However, if a vacation drags on for too long, the initial enthusiasm tends to wear off, leaving you feeling underwhelmed and bored. The rest of the trip often ends up being a waste. Moreover, people need to unwind and recharge regularly; expecting them to do so only once a year is unrealistic, and they're likely to burn out if they don't get a break. So, I don't think taking one long vacation a year is the way to go.",
+        "label": "ai"
+    },
+    {
+        "input": "",
+        "label": "ai"
+    },
+    {
+        "input": "Definitely through phone calls. First and foremost, letters and emails take an eternity. You have to gather your thoughts, put them into words, and then commit them to paper, which can be a daunting task. And let's be honest, it's easy to overlook something crucial in the process. Moreover, with snail mail, there's the added delay of waiting days, if not weeks, for the recipient to receive your letter. Plus, pouring your heart out to a piece of paper can feel rather artificial. In contrast, phone calls are a game-changer. When you hear the voice of your loved one on the other end of the line, distance becomes irrelevant. And the best part? You can make a call whenever suits you, making it infinitely more convenient.",
+        "label": "ai"
+    },
+    {
+        "input": "In my free time, I devour books, and the one I just finished reading, A Thousand Splendid Suns, has had a profound impact on me. The narrative is straightforward yet powerful, telling a remarkable story of two Afghan women from vastly different backgrounds who find themselves bound together by fate's cruel hand. Despite the hardships, they refuse to give up their pursuit of freedom and love. The book drives home the point that even amidst decades of suffering, people remain the most precious asset in the world. At the time, I was under immense pressure from my family and school, but this book taught me to hold on to hope, no matter what.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm not a big fan of watching the news regularly. There are two main reasons for this. Firstly, excessive news consumption makes me feel extremely anxious. For instance, if I'm bombarded with reports of war or disaster every day, I get really down and it affects my daily life. Secondly, I think watching the news daily can be a huge time-waster. If I spend an hour every day watching news broadcasts, I just don't have enough time for more important pursuits. For example, this month I stopped watching the nightly news and suddenly found it much easier to stay on top of my homework assignments.",
+        "label": "ai"
+    },
+    {
+        "input": "There's a notebook that holds a special place in my heart. I've always been passionate about reading and began crafting my own stories years ago. One day, a friend stumbled upon the stack of papers where I kept my stories and asked to take a look. I was initially hesitant, but also a bit thrilled that he'd taken an interest, so I agreed. A few days later, he returned my stories along with this notebook, encouraging me to keep writing and suggesting that I might one day become a skilled writer. I was deeply thankful, and that notebook has inspired me to continue writing ever since.",
+        "label": "ai"
+    },
+    {
+        "input": "One of the most unforgettable experiences of my childhood was the day I brought home my first dog, Little. I was ten years old and had been nagging my parents for a pet for what felt like an eternity. One afternoon, I walked in from school and my parents dropped a hint that they had a surprise waiting for me in my room. I sprinted upstairs, flung open the door, and that's when I laid eyes on a tiny ball of fluff with a crimson bow tied around its neck, fast asleep at the foot of my bed. From that moment on, we became inseparable. For the rest of his life, Little would snuggle up in the exact same spot at the foot of my bed every night. That heartwarming moment remains one of the most cherished memories of my childhood.",
+        "label": "ai"
+    },
+    {
+        "input": "If I had a limited budget, I would prioritize saving. The first reason is that I come from a family that values financial security, so saving comes naturally to me. The second reason is that having a safety net in case of an emergency can be a lifesaver. If you've set aside some money, you'll be better equipped to handle unexpected expenses. On the other hand, if you haven't saved, you might find yourself in a tight spot. Moreover, it's essential to prioritize saving and debt repayment over frivolous spending. So, for these two reasons, I would definitely save a small amount of money.",
+        "label": "ai"
+    },
+    {
+        "input": "I'd love to sit down with Alan Shore from the TV series Boston Legal. He's the kind of person I really look up to. He's a man of integrity, someone who sticks to his guns, and one of the few people I consider to have a strong moral compass. Yet, he's not afraid to bend the rules or push boundaries to achieve a greater good. And he's charismatic, articulate \u2013 everything I aspire to be. I'd love to pick his brain about how to strike a balance between staying true to your principles and not being too rigid about them at the same time.",
+        "label": "ai"
+    },
+    {
+        "input": "",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that assessing professors at the end of the semester has its merits, but it's not without its drawbacks. Firstly, since it's unrealistic to have senior staff observe every class, student feedback is essential to understanding how the course unfolded. Students tend to provide candid evaluations, allowing professors to learn from their mistakes. However, I also acknowledge that there are potential pitfalls. For instance, if a student is aware they will receive a failing grade, they may provide a biased review out of spite, making false claims about the professor's fairness. This not only hurts the professor personally but also has the potential to harm their professional reputation. In conclusion, I believe that evaluating professors at the end of the semester has both benefits and drawbacks that need to be considered.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm a big fan of living with roommates. For starters, having roommates means I'm never lonely. We often have a chat before important exams, which really helps me unwind and ultimately gets me good grades. Additionally, we can lend each other a helping hand when things go awry. For instance, last week I came down with a nasty cold and had to stay in my dorm. Luckily, my roommate Ben was a lifesaver - he took notes for me in class and even picked up some medicine. I was incredibly grateful.",
+        "label": "ai"
+    },
+    {
+        "input": "I disagree with the notion that honesty is always the best policy. Firstly, telling a white lie can be beneficial in many circumstances. For instance, when parents deceive their kids into believing in Santa Claus, their children are more likely to behave well throughout the year in the hopes of receiving gifts from jolly old Saint Nick. Moreover, the person asking the question may not genuinely want to hear your honest response anyway. Take, for example, the situation where an overweight girl asks a guy if she looks fat; she's probably seeking reassurance and wants to be told, \"No, you're slim.\" In situations like these, it's often kinder to be dishonest. Therefore, I believe that people shouldn't always feel obligated to tell the truth.",
+        "label": "ai"
+    },
+    {
+        "input": "There's no question that swimming is my go-to sport. It's a scientific certainty that swimming is the ultimate exercise. It demands both upper and lower body strength, and it's all about building endurance and stamina, which is vital for overall physical development. When you're competing in swimming, you'll torch more calories in 20 minutes than you would in an hour of most other sports. Not to mention the indirect benefits of swimming. Trading screen time for pool time will undoubtedly have a profound impact on both your physical and mental wellbeing.",
+        "label": "ai"
+    },
+    {
+        "input": "I couldn't agree more. Firstly, classes are designed to cater to a broad spectrum of students, teaching fundamental concepts that everyone should know, but they might not necessarily address your unique circumstances. Moreover, the curriculum is inherently limited, with teachers primarily providing a foundation, equipping you with the skills to learn independently. However, the true wisdom of the universe lies in our everyday experiences. You can glean valuable insights from books, museums, your professional pursuits, and interactions with others. These are the essential life skills you'll need in the real world, and they can't be found in textbooks.",
+        "label": "ai"
+    },
+    {
+        "input": "When it comes to choosing a restaurant, the aspect I prioritize the most is its cleanliness. First and foremost, the establishment should be spotless, allowing you to enjoy your meal in a pleasant atmosphere. Moreover, the food has to be safe to consume, as you wouldn't want to fall ill after dining. Of course, the flavor of the food is also crucial. Fortunately, there are excellent websites where you can research restaurants and read reviews from other patrons, who often recommend must-try dishes. These two factors are my top considerations.",
+        "label": "ai"
+    },
+    {
+        "input": "I would opt for health and nutrition classes for two key reasons. Firstly, I grapple with nutrition daily. When I'm trying to make healthy choices for my body, I often find myself uncertain about which foods are the most nutritious. A health and nutrition class would undoubtedly alleviate that dilemma and empower me to make informed decisions that benefit my body. Secondly, I'm not particularly enthralled by scientific subjects, so I wouldn't find an energy and environment or solar system class particularly captivating. I'd rather take classes that spark my interest rather than ones that leave me utterly dispassionate. So, for these two reasons, I would choose to take a health and nutrition class over an energy and environment or solar system course.",
+        "label": "ai"
+    },
+    {
+        "input": "If I had to choose between doing my homework alone and doing it with others, I would opt for the latter for two key reasons. Firstly, doing homework with others is far more enjoyable. For instance, when you're working on assignments with friends, you can take breaks to chat with them when you're feeling drained or bored, which helps you unwind and refocus on your work later on. Additionally, I prefer doing homework with others because it allows for collaborative discussions. Sometimes, homework can be incredibly challenging. If you get stuck on a problem, you can ask your friends who are working on the same assignment, and these discussions will help clarify concepts and answer questions on your homework. For these reasons, I strongly prefer doing homework with others.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that being open-minded is a crucial quality of an effective leader. Many of us were raised with a set of beliefs and values, which can make it challenging to embrace new ideas. However, a leader with an open mind will offer you diverse perspectives, rather than confining you to rigid dogma. Furthermore, an open mind brings a sense of sincerity, acknowledging that there is still much to be discovered, and this attitude will always drive you to learn from others, which is essential for successful teamwork.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that one of the most significant impacts of the internet is its ability to broaden our understanding of the world and facilitate global communication in a way that no other medium can match. It has been instrumental in my personal growth and development, helping me become a more successful individual. When I was deliberating about which university and major to pursue after graduating from high school, the internet provided me with a wealth of valuable insights into the future prospects of various professions that interested me. I even had the opportunity to engage in conversations with several professionals in those fields and garner their opinions, which I found incredibly enlightening.",
+        "label": "ai"
+    },
+    {
+        "input": "I think it's a completely misguided idea to prohibit employees from using their phones during work hours. Firstly, our personal phones are the only lifeline to staying informed about emergencies affecting our loved ones, and we naturally want to be notified as soon as possible. If an employee is anxious about being out of touch with their family during the day, they might start looking for a job that offers more flexibility, which would be detrimental to business. Secondly, I believe personal phones can actually boost our morale at work. We can take a quick break to catch up with a loved one or scroll through social media, which can help alleviate stress and ultimately improve our performance.",
+        "label": "ai"
+    },
+    {
+        "input": "In my view, schools should still permit high-risk sports despite the danger of severe physical harm. For starters, it's not the school's job to eradicate all risk from students' lives. If they did, they'd have to shut down science labs that use chemicals or sharp objects, since they pose a potential safety threat too. Moreover, students and their families should be free to make informed decisions about the activities they participate in, even if they come with risks, as long as they're not putting unsuspecting bystanders in harm's way. Ultimately, I firmly believe that schools should let students make their own choices about which sports to play, even if they involve serious risks.",
+        "label": "ai"
+    },
+    {
+        "input": "When I was a kid, I grew up in a suburban neighborhood. And right next to our community was a sprawling cornfield. One day, some friends and I decided to stir up some adventure, so we snuck into the field. Since I was the slowpoke of the group, they tasked me with keeping watch. After we'd grabbed some ears of corn, we high-tailed it back home as fast as our legs could carry us, not wanting to get caught red-handed. Then we scavenged for some bricks to build a makeshift stove, gathered a bunch of dry leaves to fuel the fire, and roasted the corn over the flames. I've got to say, that roasted corn was the best I've ever had.",
+        "label": "ai"
+    },
+    {
+        "input": "When I was in college, I had a ritual of pulling all-nighters, often studying until the wee hours of the morning, before heading back to my dorm to catch some shut-eye. The campus took on a serene quality at that hour, with not a soul in sight, and all the lights extinguished, giving me the illusion that I had the entire campus to myself. I'd always take a stroll through the park in the heart of the campus, where the moonbeams filtering through the branches cast an ethereal glow on the ground. The birds had fallen silent, and the occasional chirping of crickets provided the only soundtrack. You could've sworn time had stood still, were it not for the gentle breeze caressing every inch of your skin. (There was always a faint, sweet fragrance wafting through the air, reminiscent of the ripest peaches on a summer's day. Oh, how I adored that school.)",
+        "label": "ai"
+    },
+    {
+        "input": "I think it takes a while to truly get to know someone. I'm not downplaying the significance of first impressions, but you have to admit that time can completely flip them on their head. People can be vastly different once you get to know them beyond the surface level. I wasn't exactly blown away by my current girlfriend when we first met. I remember she was sitting in a corner at a party, minding her own business, and when someone tried to strike up a conversation, she gave a brief response and politely excused herself. But now I realize she's just not comfortable around strangers.",
+        "label": "ai"
+    },
+    {
+        "input": "I think it's a truly fantastic idea to undergo surgery to alter your appearance.  I hold this view for two compelling reasons. Firstly, it can give us a significant boost in self-confidence.  If we're really happy with our appearance, we're likely to feel much less self-conscious when interacting with others.  As a result, we'll find it easier to connect with people and ultimately achieve greater success in our personal and professional lives. Secondly, if we're not thrilled with the outcome of our surgery, we can always revise it.  I mean, plastic surgery has become relatively affordable these days, so if you're not satisfied with the results, you can simply undergo another procedure.  For instance, I've had my nose revised about six times already, and the expense to me has been remarkably minimal.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that governmental regulations have the most significant impact on environmental protection. In contrast to individual efforts, governmental regulations compel citizens to comply with the law, rather than simply relying on personal goodwill. For instance, in Korea, failure to recycle properly can result in a fine. The government provides all the necessary infrastructure and resources, making it convenient for the public to make the environmentally friendly choice to recycle. Furthermore, when the government introduces regulations, it also raises public awareness, which can inspire individuals to go above and beyond for the environment. When a new regulation is introduced, the government explains the rationale behind it, which may prompt people to think twice before littering. For these two reasons, I am convinced that governmental regulations have the most significant impact on environmental protection.",
+        "label": "ai"
+    },
+    {
+        "input": "When I was a kid, I grew up in the suburbs. There was a massive cornfield right next to our neighborhood. One day, my friends and I decided to do something adventurous, so we snuck into the field. Since I was the slowpoke, they made me keep watch. After we'd grabbed some ears of corn, we high-tailed it back home as fast as our legs could carry us, not wanting to get caught. Then, we scavenged for some bricks to build a makeshift stove, gathered a bunch of dry leaves to start a fire, and roasted the corn over the flames. I've got to say, that roasted corn was the best I've ever had.",
+        "label": "ai"
+    },
+    {
+        "input": "In my view, an effective leader should possess two essential qualities: confidence and empathy. The leader should exude confidence in themselves and their team members. Whenever they enter the workspace, they should command a strong sense of authority, instilling a palpable sense of trust in their team. Moreover, the leader should be empathetic towards their team members. If a leader is overly authoritarian, their team members will be hesitant to ask questions, which can hinder the efficiency of their work.",
+        "label": "ai"
+    },
+    {
+        "input": "In my opinion, governments should invest in building museums and theaters because they function as vibrant hubs for people to explore and learn about a country's rich history and cultural heritage. The range of museums is truly impressive, encompassing ancient history and archaeology, natural history, and even specialized museums focused on transportation and crime. Moreover, these museums frequently host new exhibitions, ensuring that there's always something novel to discover. Theaters, meanwhile, provide a vast platform for people to enjoy a diverse array of operas and plays from various regions. Furthermore, the construction of museums and theaters will foster cultural exchange between nations. They also play a significant role in boosting the national economy. That's why I firmly believe that government support for building museums and theaters is a worthwhile investment.",
+        "label": "ai"
+    },
+    {
+        "input": "Between team sports and solo exercise, I'd personally prefer to fly solo. If you ask me, exercising alone has its perks. For one, it's more flexible - I can do it whenever I want. Take running, for instance. If I wanted to get a workout in but only played team sports, I'd have to rally friends or find a regular group to play with. But with solo exercise, I can just head out whenever I feel like it. Plus, I can listen to music while running or hiking, which is a major bonus. You can't exactly do that with team sports - you need to communicate with your teammates, so headphones are a no-go. Overall, I just prefer exercising alone because I have more autonomy over when and what I do.",
+        "label": "ai"
+    },
+    {
+        "input": "Novels have always been my go-to form of literature. I've been an avid reader since I was a youngster, and like many kids, novels were the first books that really captured my imagination. They're engaging, relatively accessible, and most importantly, I loved immersing myself in the adventures of the heroes in those stories. As I grew older, I began to delve deeper into the themes, seeking to uncover the underlying messages that the authors were trying to convey. I found myself becoming emotionally invested in the characters, sharing in their triumphs and struggles. And in the process, I've learned so much from them.",
+        "label": "ai"
+    },
+    {
+        "input": "As far as I'm concerned, television is the most significant invention of the past century. Firstly, through TV news broadcasts, we can stay informed about global events from the comfort of our own living rooms. Additionally, watching TV with family members after dinner is a great way to unwind after a long day's work. Moreover, the visual impact of television has a profound effect on people's mental well-being, reducing stress and influencing the way we think and communicate.",
+        "label": "ai"
+    },
+    {
+        "input": "I believe that what makes a good friend is someone who is truthful, supportive, and has a great sense of humor. I'm looking for someone who's brutally honest with me, no matter what. They should be transparent and upfront with me, telling me my flaws straight to my face, but not sugarcoating them just to make me feel good. As the saying goes, \"A FRIEND IN NEED IS A FRIEND INDEED.\" Therefore, a true friend should stand by you through thick and thin. I think that a good friend won't abandon me when I'm in trouble. They should be my rock, supporting me in both the good times and the bad. Also, I'd love to spend more time with someone who can make me laugh and is enjoyable to be around.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm inclined to go with the latter option. While studying a subject for job prospects isn't inherently wrong, it's just not my cup of tea. Personally, I aspire to become a scientist, and pursuing my passions is crucial, as research can be grueling and frustrating at times. If I'm not driven by genuine interest, I risk losing steam. Moreover, if one's sole motivation is financial gain, they're likely to abandon their field once it no longer yields a substantial profit, which would be detrimental to scientific progress.",
+        "label": "ai"
+    },
+    {
+        "input": "",
+        "label": "ai"
+    },
+    {
+        "input": "I have a strong preference for working in an office environment. As we all know, most professional situations rely heavily on collaboration and communication, which can be severely hindered when working from home in isolation. Moreover, when faced with challenges, it's blatantly obvious that discussing them with colleagues is much more efficient, as they can offer alternative perspectives. Studies have also consistently shown that individuals are more likely to lose focus when working independently. Furthermore, working in an office setting provides ample opportunities to form friendships, which can, in turn, increase job satisfaction. As social creatures, humans are not designed to spend excessive amounts of time alone, and doing so can have detrimental effects on our mental well-being.",
+        "label": "ai"
+    },
+    {
+        "input": "That was the moment I received the results of my college entrance exam. We were under immense pressure that day. Finally, the phone rang, and it turned out I had done exceptionally well. Even though my mind was still reeling, my dad's words snapped me back to reality: \"Son, I'm incredibly proud of you.\" Suddenly, I realized that all my hard work had paid off, and I hadn't let myself or anyone who cares about me down. That was the moment I knew it marked a brand new chapter in my life, and it's a memory I'll always treasure.",
+        "label": "ai"
+    },
+    {
+        "input": "Living in a metropolitan hub can offer a plethora of advantages. Currently, I am pursuing my studies in Guangzhou, a thriving and modern metropolis in my home country. My life has undergone a drastic transformation compared to the past. Now, I have access to superior educational resources, opportunities to experience new things, and a wider range of job prospects. As a result, I feel invigorated and motivated every day! Furthermore, the urban infrastructure in big cities is exemplary, boasting an array of amenities, including museums, hospitals, schools, libraries, and more.",
+        "label": "ai"
+    },
+    {
+        "input": "Personally, I'm particularly fond of magazines. There are several reasons for this preference. Firstly, I find the humorous stories and anecdotes in magazines to be a great source of entertainment, allowing me to pick up new jokes and share them with my friends, which in turn helps me develop my social and communication skills. Secondly, I appreciate the opportunity to connect with like-minded individuals who share my passion for magazines, and we can even organize social gatherings.",
+        "label": "ai"
+    },
+    {
+        "input": "Here's a rewritten version of the text with enhanced word choices to sound more like a native speaker:\n\n\"First and foremost, the primary motivation for studying is to secure a good job, and the opportunities are far more abundant in large cities compared to small towns. By studying in a big city, I can hold down a part-time job while pursuing my degree and increase my chances of landing a job in the same city after graduation. Furthermore, a big city offers a more vibrant cultural scene, which is a major draw for me. I have a special affinity for the performing arts, having been taken to the theater by my grandfather when I was just four years old. Since then, I have been enamored with opera and history.\"",
+        "label": "ai"
+    },
+    {
+        "input": "I would take them to a science museum because I want my students to gain some valuable insights from this experience, and a science museum is the perfect place to spark their curiosity. At the museum, they can engage in a range of interactive activities, such as getting up close and personal with fossils they've studied in class, which is not something they can do every day.",
+        "label": "ai"
+    },
+    {
+        "input": "For one thing, it's always been my dream to do this since I was a kid, and I've invested every waking hour in preparing myself to become one. I've learned to collaborate effectively with my teammates, identifying their strengths and weaknesses. I've also learned to own up to my mistakes and use them as opportunities to improve for the next time around. To be honest, I really enjoy it. Furthermore, being an outgoing person, I've discovered that I'm quite skilled at navigating all sorts of relationships, which is clearly an essential quality for a leader.",
+        "label": "ai"
+    },
+    {
+        "input": "",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that being open-minded is the hallmark of a good teacher. Many of us were raised with a particular set of beliefs and values, which can make it challenging to accept new ideas. However, teachers with an open mind offer students the opportunity to reframe their perspective on the world and expose them to a multitude of possibilities. Moreover, an open mind is accompanied by an honesty that acknowledges there's still much to be discovered, and this attitude fosters a deeper exploration of the world.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that the government has a vital role to play in supporting the establishment of museums and theaters. Firstly, it's undeniable that these institutions serve as a window into a city's unique cultural heritage, providing visitors with a crash course on the local culture. As a result, they are likely to attract more tourists to the city. Secondly, this initiative is crucial for preserving cultural heritage and encouraging people to appreciate its significance. Personally, I have fond memories of being taken to the theater by my grandfather when I was just 4 years old, which sparked my passion for Beijing Opera and created a treasured bond between us.",
+        "label": "ai"
+    },
+    {
+        "input": "If I'm left with limited funds, I'd prioritize spending my money on two key areas. Firstly, I'd invest in taking a class because acquiring new knowledge and skills can significantly boost my earning potential. Essentially, the money I spend on education is a smart investment in my future. Additionally, I'd allocate my remaining funds to prioritize my health and wellbeing. With a limited budget, I'm aware that I wouldn't have the financial resources to cover unexpected medical expenses if I fell seriously ill and had to be hospitalized. By taking proactive care of myself now, I can reduce the likelihood of falling ill in the long run. For these reasons, I believe it's prudent to spend my money wisely.",
+        "label": "ai"
+    },
+    {
+        "input": "I prefer to work at the office for two reasons. Firstly, I find that I'm more productive when I work at the office. Last week, I had a bad cough and had to work from home. However, I struggled to focus on my work because the comfortable environment made me feel inclined to sleep all day. Secondly, working at the office allows me to discuss problems directly with my colleagues, which enables me to resolve issues more efficiently and complete tasks more quickly.",
+        "label": "ai"
+    },
+    {
+        "input": "My answer would be the TV. Growing up in a tiny town, my family was far from affluent, so traveling was a luxury we couldn't often afford. As a result, the TV became my window to the world. Through it, I discovered the towering skyscrapers of bustling metropolises, delved into my country's rich history, and explored exotic cultures from around the globe. Now, traveling has become a vital part of my life, and I attribute it all to that small screen that fascinated me during my childhood.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that having an open mind is essential to being a good friend. Most of us are raised with a particular set of beliefs and values, so it can be challenging to embrace new ideas. However, a friend with an open mind can bring countless opportunities into your life and offer you the chance to shift your perspective on the world. Moreover, there's an authenticity that comes with having an open mind, as it involves acknowledging that you don't have all the answers. It's always refreshing to be around friends like that, and they will inspire you to explore the world from different angles.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm a big fan of taking my time and soaking up the atmosphere when I'm on the road. What really gets me going about travel isn't some specific destination I've got my heart set on, but the journey itself and the unexpected twists and turns that come with it. Before I set off, all I know about my destination is what I've picked up from others, which might not necessarily resonate with me. The thing is, every place is different, and people's tastes vary wildly. I love striking up conversations with locals or fellow travellers, seeking their advice, and adjusting my itinerary on the fly. Sometimes, I don't even end up making it to the places I initially planned to visit.",
+        "label": "ai"
+    },
+    {
+        "input": "There's no doubt that drama is my go-to movie genre. I've been a film buff since I was a kid, but unlike most youngsters, I've never been drawn to action flicks. Thrilling as they can be, they often lack substance. You'll likely forget all about them a month later. On the other hand, I'm fascinated by the profound insights that dramas offer, and I love to decipher the underlying messages. I become emotionally invested in the characters' journeys, sharing in their triumphs and struggles. And I've learned a great deal from them.",
+        "label": "ai"
+    },
+    {
+        "input": "I have to respectfully disagree. It's not that I'm opposed to a laid-back lifestyle, but the truth is, I have a multitude of ambitions to pursue. I've got a long list of books I'm eager to devour, I'm determined to surprise my parents with a luxurious RV, I'm itching to explore the world, and I'm passionate about mastering several new languages. However, none of these aspirations will become a reality unless I can overcome my financial constraints. So, I have no choice but to hit the books and put in the hard work necessary to earn a substantial income. Unfortunately, a relaxing life is a luxury I simply can't afford right now.",
+        "label": "ai"
+    },
+    {
+        "input": "My ultimate goal is to become a renowned engineer one day. Pursuing a career in engineering is a lifelong dream I've been passionately chasing since childhood. It will enable me to unleash my creativity in my daily work, making my dreams a reality. And I'd be thrilled if I could design something that would stand the test of time, even long after I'm gone, and witnessing people benefit from my creation would undoubtedly bring me immense fulfillment. So, attending engineering school marks a brand new chapter in my life. That's why it holds such great significance for me.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm convinced that TV has the greatest impact on me among the three. First, the news broadcasts on television allow me to stay informed about current events without even leaving my living room. I'm keen to stay up-to-date on what's happening in the world. Additionally, watching TV with family members after dinner is a great way to unwind after a long day. Furthermore, the visual elements of TV have a calming effect on me, reducing my stress levels and significantly influencing my thoughts and opinions. That's why I firmly believe that TV has the most significant influence on me.",
+        "label": "ai"
+    },
+    {
+        "input": "My favorite room in my house is my study. It's a treasure trove of books, featuring fashion magazines, inspirational reads, and more. Plus, I have a computer set up in there. The reason it's my go-to space is that in my downtime, I enjoy surfing the internet to stay on top of the latest fashion trends or seek out valuable books that help me recharge. These books have a profound impact on my well-being, leaving me feeling revitalized and energized.",
+        "label": "ai"
+    },
+    {
+        "input": "If I had to choose between team sports and working out solo, I'd hands-down opt for a team sport, like volleyball, which just so happens to be my favorite. It's way more enjoyable to spend time with others. There are a couple of reasons I feel that way. When you're surrounded by people, you can share the experience, for one. I mean, you can chat, or even crack a joke or two, like, if you're playing volleyball and you make a mistake \u2013 you fumble the ball, for instance \u2013 your buddies can give you a pep talk. But beyond that, friends can also provide that extra motivation. When you're exercising alone, on the other hand, you need to muster up the motivation yourself. So, my main point is that exercising with others makes the time fly by and is way more enjoyable.",
+        "label": "ai"
+    },
+    {
+        "input": "I prefer learning in a traditional classroom setting. We all know that in many cases, learning is about collaboration and communication, which can be severely impaired if you're studying solo at home. And when you hit a snag, it's clearly more efficient to bounce ideas off others, who can offer a fresh perspective. Studies have also shown that people tend to lose focus when working independently. Moreover, learning in a classroom environment can help you build connections, which can make you more passionate about your work. As social creatures, spending too much time in isolation can be detrimental to our mental well-being.",
+        "label": "ai"
+    },
+    {
+        "input": "To me, eating at restaurants beats eating at food stands hands down, and it's mainly due to two reasons. The first reason is that I've grown up dining in restaurants, so I'm used to the atmosphere. As a matter of fact, I can't even recall the last time I grabbed a bite from a street vendor. Plus, there's no comparison between the comfort of eating in a nice, cozy building and eating outdoors. The second reason is that the food options are far more extensive. I have a wider range of choices, and my food is cooked to perfection, thanks to their professional cooking facilities. That's why, for me, restaurants win out over food stands any day.",
+        "label": "ai"
+    },
+    {
+        "input": "In my opinion, a good friend should possess certain qualities that make them truly special. As the old adage goes, \"a friend in need is a friend indeed.\" This means that a genuine friend should stand by your side in times of need, whether it's during life's sunny moments or its darkest hours. A true friend instills a sense of trust and reliability, making you feel secure in their presence. Moreover, they should be empathetic and caring, offering a helping hand when you're struggling or facing difficulties. What's more, I think it's essential to have a friend who can bring laughter and joy into your life, making time spent together a truly enjoyable experience.",
+        "label": "ai"
+    },
+    {
+        "input": "Studying in a major metropolitan area like Beijing really resonates with me. I attended college in Beijing, which is one of China's largest and most vibrant cities. To be honest, I wasn't immediately taken with the city, but its allure grew on me over time. As we all know, going to college is about more than just absorbing knowledge from textbooks; it's also about preparing for the workforce and building a social network. Beijing is an ideal city for achieving these goals. It's a hub of opportunities and is teeming with passionate, like-minded individuals. Moreover, many of the country's top universities are concentrated in urban areas, so studying in Beijing has been beneficial for my academic pursuits as well.",
+        "label": "ai"
+    },
+    {
+        "input": "I firmly believe that the most pivotal decision I've ever made was pursuing a degree in engineering. Becoming an engineer has been a lifelong dream of mine since childhood. This career path will enable me to tap into my creative potential on a daily basis, making my work infinitely more enjoyable. Moreover, I've always been driven by the desire to create something that will stand the test of time, even long after I'm gone. Seeing people benefit from my designs will undoubtedly bring me immense satisfaction. In many ways, attending engineering school marks a brand new chapter in my life. That's why it holds immense significance for me.",
+        "label": "ai"
+    },
+    {
+        "input": "I'm convinced that assigning daily homework to kids is a great idea. I have two compelling reasons for this stance. Firstly, I firmly believe that it helps kids retain what they learn for a significantly longer period. The only effective way for kids to internalize a lesson is to repeatedly practice it at home, which ultimately leads to greater academic achievement in the long run. Secondly, I think homework provides an opportunity for kids to bond with their parents. For instance, when I was in elementary school, I had a heavy daily homework load. I'd work on it with my mom and dad, and whenever I was stuck, I'd ask them for help. Over time, we grew incredibly close.",
+        "label": "ai"
+    },
+    {
+        "input": "There's no question that I'm destined to become an engineer. Ever since I was a kid, I've been fascinated by the prospect of being an engineer. It's a career that will enable me to tap into my creative potential on a daily basis, making my dreams a reality. I'm driven by the desire to create something that will stand the test of time, even long after I'm gone, and knowing that people will benefit from my designs gives me immense satisfaction. Pursuing a degree in engineering marks a fresh start for me, and that's why it's so crucial to me.",
+        "label": "ai"
+    },
+    {
+        "input": "The one I admire the most is Alan Shore from the TV series Boston Legal - you might be familiar with it. He's completely rewritten my idea of the perfect man and the qualities one should strive for. He's a stand-up guy, a man of his word, and one of the few individuals I believe have a strong moral compass. Yet, he's not a stickler for the rules and knows when to bend them to achieve the greater good. Plus, he's charismatic and articulate - everything I aspire to be.",
+        "label": "ai"
+    },
+    {
+        "input": "If I had to choose among computer science, business, and photography classes, I would opt for computer science for two primary reasons. Firstly, I have a strong affinity for computer science because programming is a versatile skill that transcends industry boundaries. For instance, even if I were to pursue a career in the fashion industry, my programming skills would enable me to develop a visually appealing website, create a user-friendly app for customers, and so forth. Additionally, I am drawn to computer science because it teaches me how to approach problems in a methodical way. For example, I can learn to analyze problems systematically, break them down into manageable parts, and devise logical solutions. This problem-solving acumen makes me a more attractive candidate, increasing my chances of securing a job. Consequently, computer science is my top choice.",
+        "label": "ai"
+    },
+    {
+        "input": "Well, I think there are several ways to maintain my overall well-being. In terms of physical health, I plan to make exercise a regular habit. For instance, I'll hit the gym or play sports with friends, such as basketball or volleyball. Additionally, I'll focus on eating a balanced diet, which means cutting back on fast food that's high in oil, sugar, and salt. Instead, I'll make sure to consume more fresh fruits and vegetables. As for my mental health, I think listening to soothing music before bed will help improve the quality of my sleep. And when I'm faced with difficulties, I'll talk to close friends or family members about my concerns rather than bottling up my emotions.",
+        "label": "ai"
+    },
+    {
+        "input": "On my trip to Paris, I had the opportunity to lay eyes on one of DaVinci's masterpieces, the Mona Lisa, which I've always been utterly fascinated by. The enigmatic half-smile is what cemented the Mona Lisa's reputation. Unlike many paintings that aim to freeze a moment in time, the Mona Lisa seems to capture the subtleties of human emotion. When we gaze at the lady, it's as if we're witnessing a full smile unfold before our very eyes. But sometimes, we're left perplexed. We can't help but wonder: will her face light up with a radiant smile in the next instant, or will all traces of it vanish? This uncertainty creates a captivating dynamic between the viewer and the Mona Lisa.",
+        "label": "ai"
+    }
+]
