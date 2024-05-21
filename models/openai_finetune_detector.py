@@ -11,12 +11,12 @@ PARENT_DIR  = os.path.dirname(CURR_DIR)
 device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
 
 
-def detect(text, tokenizer=None, model=None):
+def detect(text, tokenizer=None, model=None, model_name="fine_tune_epoch1.pth"):
     if not tokenizer:
         tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
 
     if not model:
-        model = torch.load("".join(PARENT_DIR+"/models/"+args.model_name))
+        model = torch.load("".join(PARENT_DIR+"/models/"+model_name))
     
     model = model.to(device)
     # encode
