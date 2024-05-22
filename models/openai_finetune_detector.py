@@ -10,7 +10,6 @@ PARENT_DIR  = os.path.dirname(CURR_DIR)
 
 device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
 
-
 def detect(text, tokenizer=None, model=None, model_name="fine_tune_epoch1.pth"):
     if not tokenizer:
         tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
@@ -43,6 +42,9 @@ def detect(text, tokenizer=None, model=None, model_name="fine_tune_epoch1.pth"):
     # probability
     logits = output.logits
     prob = F.softmax(logits, dim=-1)[:, :].detach().cpu().numpy().squeeze()
+    
+    torch.mps.empty_cache() if device == "mps" else torch.cuda.empty_cache() if device == "cuda" else None
+
     return {"Fake": prob[0], "Real": prob[1]}
 
 

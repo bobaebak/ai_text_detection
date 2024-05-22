@@ -37,6 +37,9 @@ def detect(text, tokenizer=None, model=None):
     # probability
     logits = output.logits
     prob = F.softmax(logits, dim=-1)[:, :].detach().cpu().numpy().squeeze()
+    
+    torch.mps.empty_cache() if device == "mps" else torch.cuda.empty_cache() if device == "cuda" else None
+
     return {"Fake": prob[0], "Real": prob[1]}
 
 if __name__ == "__main__":
