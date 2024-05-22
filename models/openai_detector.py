@@ -7,10 +7,10 @@ device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is
 
 def detect(text, tokenizer=None, model=None):
     if not tokenizer:
-        tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
+        tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-large-openai-detector")
 
     if not model:
-        model = AutoModelForSequenceClassification.from_pretrained("openai-community/roberta-base-openai-detector")
+        model = AutoModelForSequenceClassification.from_pretrained("openai-community/roberta-large-openai-detector")
 
     model = model.to(device)
     # encode
@@ -47,8 +47,8 @@ if __name__ == "__main__":
     parser.add_argument("--text", type=str, default="")
     args = parser.parse_args()
 
-    tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
-    model = AutoModelForSequenceClassification.from_pretrained("openai-community/roberta-base-openai-detector")
+    tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-large-openai-detector")
+    model = AutoModelForSequenceClassification.from_pretrained("openai-community/roberta-large-openai-detector")
 
     prob = detect(args.text, tokenizer, model)
     print(prob)
