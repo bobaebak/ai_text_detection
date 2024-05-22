@@ -10,22 +10,27 @@ Our approach involves emulating established detection techniques and mimic exist
 <tr>
     <th>Methods</th>
     <th>Details</th>
+    <th>Reference</th>
 </tr>
 <tr>
     <td>DetectGPT</td>
     <td>Log probabilities computed by the model of interest and random perturbations</td>
+    <td></td>
 </tr>
 <tr>
     <td>GPTZero</td>
     <td>Perplexity, Burstiness</td>
+    <td>[Git](https://github.com/BurhanUlTayyab/GPTZero)</td>
 </tr>
 <tr>
     <td>Radar</td>
     <td>GAN algorithm to detect including paraphrased dataset</td>
+    <td>[Git](https://github.com/IBM/RADAR)</td>
 </tr>
 <tr>
     <td>OpenAI</td>
     <td>roberta-base-openai-detector</td>
+    <td>[Huggingface](https://huggingface.co/openai-community/roberta-large-openai-detector) [Fine-tuning](https://colab.research.google.com/github/DhavalTaunk08/NLP_scripts/blob/master/sentiment_analysis_using_roberta.ipynb#scrollTo=8eKt004BKjyT)</td>
 </tr>
 </table>
 
