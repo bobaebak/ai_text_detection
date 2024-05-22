@@ -52,9 +52,9 @@ def labeling(perplexity_per_line_avg):
 
 def detect(text, tokenizer=None, model=None) -> dict:   
     if tokenizer is None:
-        model = GPT2LMHeadModel.from_pretrained('gpt2')
-    if model is None:
         tokenizer = GPT2Tokenizer.from_pretrained("gpt2", padding_side='left')
+    if model is None:
+        model = GPT2LMHeadModel.from_pretrained('gpt2')
     
     total_valid_char = re.findall("[a-zA-Z0-9]+", text)
     total_valid_char = sum([len(x) for x in total_valid_char]) # finds len of all the valid characters a sentence
