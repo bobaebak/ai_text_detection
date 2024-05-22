@@ -61,6 +61,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, default="")
     parser.add_argument("--file_name", type=str, default="test.json")
     parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--model", type=str, default="gpt2-medium")
     args = parser.parse_args()
 
     if args.dataset in dataset_dct:
@@ -73,7 +74,7 @@ if __name__ == "__main__":
     else:
         print("wrong dataset parameter")
 
-    model = GPT2LMHeadModel.from_pretrained("gpt2-medium").to(device)
+    model = GPT2LMHeadModel.from_pretrained(args.model).to(device)
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2-medium", padding_side='left')
     tokenizer.pad_token = tokenizer.eos_token
 
