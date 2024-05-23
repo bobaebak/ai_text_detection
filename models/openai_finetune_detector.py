@@ -15,7 +15,7 @@ def detect(text, tokenizer=None, model=None, model_name="fine_tune_epoch1.pth"):
         tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
 
     if not model:
-        model = torch.load("".join(PARENT_DIR+"/models/"+model_name))
+        model = torch.load("".join(PARENT_DIR+"/models/openai_finetune_models/"+model_name))
     
     model = model.to(device)
     # encode
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
-    model = torch.load("".join(PARENT_DIR+"/models/"+args.model_name))
+    model = torch.load("".join(PARENT_DIR+"/models/openai_finetune_models/"+args.model_name))
 
     prob = detect(args.text, tokenizer, model)
     print(prob)
