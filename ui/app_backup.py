@@ -24,7 +24,7 @@ sys.path.append("/Users/bobaebak/git/ai_text_detection")
 from utils.file_helper import *
 from utils.text_helper import *
 from utils.plot_helper import *
-from models.gptzero_model import GPTZeroRunner 
+from ai_text_detection.models.gptzero_detector import GPTZeroRunner 
 from models.detectgpt_model import DetectGPTRunner
 
 st.set_page_config(layout="wide")

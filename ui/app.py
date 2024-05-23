@@ -168,7 +168,7 @@ def main():
 
                 }
                 plot_bar(**args)
-                st.info(f"Perplexity: {result_4['perplexity']}, Burstiness: {result_4['burstiness']}")
+                st.success(f"Perplexity: {result_4['perplexity']}, Burstiness: {result_4['burstiness']}")
 
                 st.slider(f"Threshold: {result_4['perplexity_per_line_avg']}", 0.0, 100.0, tuple(float(x) for x in result_4['threshold']), disabled=True)
                 st.write(result_4['msg'])
@@ -204,11 +204,11 @@ def main():
             #     # st.warning("Disclaimer: AI plagiarism detector apps can assist in identifying potential instances of plagiarism; however, it is important to note that their results may not be entirely flawless or completely reliable. These tools employ advanced algorithms, but they can still produce false positives or false negatives. Therefore, it is recommended to use AI plagiarism detectors as a supplementary tool alongside human judgment and manual verification for accurate and comprehensive plagiarism detection.")
                 
                 
-            # with col3:
+            with col3:
+                ######################## run GAN version
                 # st.write("Probability of AI-generated text is ", output_probs[0])
                 # # plot_top_repeated_words(text_area)
-
-
+                pass
 
 if __name__ == "__main__":
 
