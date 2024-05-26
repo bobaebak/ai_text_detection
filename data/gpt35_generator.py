@@ -19,6 +19,7 @@ dataset_dct = {
     "arxiv": "".join(PARENT_DIR+"/dataset/human/arxiv.json"),
     "essay": "".join(PARENT_DIR+"/dataset/human/student_essay.json"),
     "essay_cs": "".join(PARENT_DIR+"/dataset/human/student_cs_essay.json"),
+    "eval": "".join(PARENT_DIR+"/dataset/human/eval_human.json"),
 }
 
 prompt_template_lst = [
