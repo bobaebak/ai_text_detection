@@ -10,7 +10,7 @@ PARENT_DIR  = os.path.dirname(CURR_DIR)
 
 device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
 
-def detect(text, tokenizer=None, model=None, model_name="fine_tune_epoch1.pth"):
+def detect(text, tokenizer=None, model=None, model_name="20240523_v1_epoch4.pth"):
     if not tokenizer:
         tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
 
@@ -52,7 +52,7 @@ def detect(text, tokenizer=None, model=None, model_name="fine_tune_epoch1.pth"):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--text", type=str, default="")
-    parser.add_argument("--model_name", type=str, default="fine_tune_epoch1.pth")
+    parser.add_argument("--model_name", type=str, default="20240523_v1_epoch4.pth")
     args = parser.parse_args()
 
     tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")

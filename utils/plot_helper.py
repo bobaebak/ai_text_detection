@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt 
+import seaborn as sns
 from typing import Deque, List, Optional, Tuple
 from pydantic import BaseModel
 
@@ -37,6 +38,7 @@ def draws(helper: PlotHelper):
             "plot": draw_plot,
             "hist": draw_hist,
             "bar": draw_bar,
+            "heatmap": draw_heatmap,
         }
         
         target = next(iteration) # choose data
@@ -55,6 +57,7 @@ def draws(helper: PlotHelper):
                 "plot": draw_plot,
                 "hist": draw_hist,
                 "bar": draw_bar,
+                "heatmap": draw_heatmap,
             }
             target = next(iteration) # choose data
             plot_branch[target.ptype](ax, target) # choose accordingly relying on plot type
@@ -79,3 +82,7 @@ def draw_hist(ax, target):
 def draw_bar(ax, target):
     for x, y, args in zip(target.x, target.y, target.args):
         ax.bar(x, y, **args)
+
+def draw_heatmap(ax, target):
+    for data, args in zip(target.x, target.args):
+        sns.heatmap(data=data, ax=ax, **args)
