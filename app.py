@@ -9,8 +9,10 @@ import string
 
 CURR_DIR = os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR  = os.path.dirname(CURR_DIR)
+# print(CURR_DIR)
+# print(PARENT_DIR)
 
-sys.path.append("".join(PARENT_DIR))
+sys.path.append("".join(CURR_DIR))
 
 import models.openai_detector 
 import models.openai_finetune_detector 
