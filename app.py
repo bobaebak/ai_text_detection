@@ -14,12 +14,12 @@ PARENT_DIR  = os.path.dirname(CURR_DIR)
 
 sys.path.append("".join(CURR_DIR))
 
-import openai_detector 
-import openai_finetune_detector 
-import radar_detector
-import gptzero_detector
-import detectgpt_detector
-import radar_finetune_detector
+import models.openai_detector 
+import models.openai_finetune_detector 
+import models.radar_detector
+import models.gptzero_detector
+import models.detectgpt_detector
+import models.radar_finetune_detector
 import matplotlib.pyplot as plt
 
 
@@ -146,8 +146,10 @@ def main():
                 pred_5 = "Real" if result_5['label'] == 1 else "Fake"
                 pred_6 = "Real" if float(result_6['Real']) > float(result_6['Fake']) else "Fake"
                 classifiers_predictions = [pred_1, pred_2, pred_3, pred_4, pred_5, pred_6]  
+                # classifiers_predictions = [pred_1, pred_2, pred_3, pred_4, pred_6]  
                 result_7 = final_prediction_weighted(classifiers_predictions)
-                st.success(f"""{result_7}""")
+                label = "Human" if result_7 == "Real" else "AI"
+                st.success(f"""The Text is written by {label}""")
 
 
 

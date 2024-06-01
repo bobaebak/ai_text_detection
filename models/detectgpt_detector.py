@@ -7,10 +7,15 @@ import torch
 from multiprocessing.pool import ThreadPool
 from scipy.stats import norm
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, T5Tokenizer, AutoModelForSeq2SeqLM
+import os
+
+# Set TOKENIZERS_PARALLELISM to either 'true' or 'false'
+# os.environ["TOKENIZERS_PARALLELISM"] = "true"  # or "false"
+
 
 threshold = 0.7
 chunk_value = 100
-device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
+device = "cpu" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
 
 def random_word_mask(text, ratio):
     span = 2
@@ -187,7 +192,7 @@ def detect(text, tokenizer=None, model=None, t5_tokenizer=None, t5_model=None) -
     if model is None:
         model = GPT2LMHeadModel.from_pretrained("gpt2")
     if t5_tokenizer is None:
-        t5_tokenizer = T5Tokenizer.from_pretrained("t5-large", model_max_length=512)
+        t5_tokenizer = T5Tokenizer.from_pretrained("t5-large", model_max_length=512, legacy=False)
     if t5_model is None:
         t5_model = AutoModelForSeq2SeqLM.from_pretrained("t5-large")
 
@@ -223,6 +228,8 @@ def detect(text, tokenizer=None, model=None, t5_tokenizer=None, t5_model=None) -
         if re.search("[a-zA-Z0-9]+", line) == None:
             continue
         score, diff, sd = get_score(line, tokenizer, model, t5_tokenizer, t5_model)
+        torch.mps.empty_cache() if device == "mps" else torch.cuda.empty_cache() if device == "cuda" else None
+        print("done!!!!")
         if score == -1 or math.isnan(score):
             continue
         scores.append(score)
