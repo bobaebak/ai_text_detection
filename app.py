@@ -14,12 +14,12 @@ PARENT_DIR  = os.path.dirname(CURR_DIR)
 
 sys.path.append("".join(CURR_DIR))
 
-import models.openai_detector 
-import models.openai_finetune_detector 
-import models.radar_detector
-import models.gptzero_detector
-import models.detectgpt_detector
-import models.radar_finetune_detector
+import openai_detector 
+import openai_finetune_detector 
+import radar_detector
+import gptzero_detector
+import detectgpt_detector
+import radar_finetune_detector
 import matplotlib.pyplot as plt
 
 
