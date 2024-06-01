@@ -24,10 +24,24 @@ Our approach involves emulating established detection techniques and mimic exist
     <td>GAN algorithm to detect including paraphrased dataset</td>
 </tr>
 <tr>
+    <td>Radar Fine-tuned</td>
+    <td>Radar Fine-tuned Version</td>
+</tr>
+<tr>
     <td>OpenAI</td>
-    <td>roberta-base-openai-detector</td>
+    <td>roberta-large-openai-detector</td>
+</tr>
+<tr>
+    <td>OpenAI Fine-tuned</td>
+    <td>OpenAI Fine-tuned Version</td>
 </tr>
 </table>
+
+# How to Start the UI
+```code
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 # Research Paper
 [Spreadsheet](https://docs.google.com/spreadsheets/d/1lFU7ljZu4m8LMPaVuqk2uVccyoFEpshIeAnX6SuXI_Y/edit#gid=0)
@@ -39,11 +53,19 @@ ai_text_detection/
 │
 ├── cookbooks/
 │   ├── ai-data-generator.ipynb
+│   ├── data-plot.ipynb
+│   ├── detector-collection.ipynb
+│   ├── evaluation.ipynb
+│   ├── fine-tuning-openai.ipynb
+│   ├── fine-tuning-radar.ipynb
+│   ├── gan-training.ipynb
+│   ├── gangptzero-threshold.ipynb
 │   └── human-data-generator.ipynb
 │
 ├── data/
 │   ├── eval_human_data_generator.py
 │   ├── gpt2_generator.py
+│   ├── gpt35_generator.py
 │   ├── human_data_generator.py
 │   └── llama_generator.py
 │
@@ -56,8 +78,14 @@ ai_text_detection/
 │   │   ├── ...
 │
 ├── models/
+│   ├── detectgpt_detector.py
+│   ├── gptzero_detector.py
+│   ├── openai_detector.py
+│   ├── openai_finetune_detector.py
+│   ├── radar_detector.py
+│   └── radar_finetune_detector.py
 │
-├── ui/
+├── app.py
 │
 ├── utils/
 │
