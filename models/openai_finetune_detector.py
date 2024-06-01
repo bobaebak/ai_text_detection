@@ -12,10 +12,12 @@ device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is
 
 def detect(text, tokenizer=None, model=None, model_name="20240523_v1_epoch4.pth"):
     if not tokenizer:
-        tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
+        # tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
+        tokenizer = AutoTokenizer.from_pretrained("bobae/openai_finetuned_detector")
 
     if not model:
-        model = torch.load("".join(PARENT_DIR+"/models/openai_finetune_models/"+model_name), map_location=torch.device('cpu'))
+        # model = torch.load("".join(PARENT_DIR+"/models/openai_finetune_models/"+model_name), map_location=torch.device('cpu'))
+        model = AutoModelForSequenceClassification.from_pretrained("bobae/openai_finetuned_detector")
     
     model = model.to(device)
     # encode
@@ -55,8 +57,12 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="20240523_v1_epoch4.pth")
     args = parser.parse_args()
 
-    tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
-    model = torch.load("".join(PARENT_DIR+"/models/openai_finetune_models/"+args.model_name), map_location=torch.device('cpu'))
+    # tokenizer = AutoTokenizer.from_pretrained("openai-community/roberta-base-openai-detector")
+    tokenizer = AutoTokenizer.from_pretrained("bobae/openai_finetuned_detector")
+
+    # model = torch.load("".join(PARENT_DIR+"/models/openai_finetune_models/"+args.model_name), map_location=torch.device('cpu'))
+    model = AutoModelForSequenceClassification.from_pretrained("bobae/openai_finetuned_detector")
+
 
     prob = detect(args.text, tokenizer, model)
     print(prob)

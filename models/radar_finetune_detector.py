@@ -12,11 +12,13 @@ device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is
 
 def detect(text, tokenizer=None, model=None, model_name="20240528_v2_epoch4.pth"):
     if not tokenizer:
-        tokenizer = AutoTokenizer.from_pretrained("TrustSafeAI/RADAR-Vicuna-7B")
+        # tokenizer = AutoTokenizer.from_pretrained("TrustSafeAI/RADAR-Vicuna-7B")
+        tokenizer = AutoTokenizer.from_pretrained('bobae/radar_finetuned_detector')
 
     if not model:
-        model = torch.load("".join(PARENT_DIR+"/models/radar_finetune_models/"+model_name), map_location=torch.device('cpu'))
-    
+        # model = torch.load("".join(PARENT_DIR+"/models/radar_finetune_models/"+model_name), map_location=torch.device('cpu'))
+        model = AutoModelForSequenceClassification.from_pretrained('bobae/radar_finetuned_detector')
+
     model = model.to(device)
     # encode
     encoded_inputs = tokenizer.encode_plus(
@@ -55,8 +57,11 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="20240528_v2_epoch4.pth")
     args = parser.parse_args()
 
-    tokenizer = AutoTokenizer.from_pretrained("TrustSafeAI/RADAR-Vicuna-7B")
-    model = torch.load("".join(PARENT_DIR+"/models/radar_finetune_models/"+args.model_name), map_location=torch.device('cpu'))
+    # tokenizer = AutoTokenizer.from_pretrained("TrustSafeAI/RADAR-Vicuna-7B")
+    tokenizer = AutoTokenizer.from_pretrained('bobae/radar_finetuned_detector')
+
+    # model = torch.load("".join(PARENT_DIR+"/models/radar_finetune_models/"+args.model_name), map_location=torch.device('cpu'))
+    model = AutoModelForSequenceClassification.from_pretrained('bobae/radar_finetuned_detector')
 
     prob = detect(args.text, tokenizer, model)
     print(prob)
