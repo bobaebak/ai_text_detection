@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 import string
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
 
 CURR_DIR = os.path.dirname(os.path.abspath(__file__))
